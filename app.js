@@ -25,6 +25,6 @@ function formatNumber(num) {
     return num < 10 ? "0" + num : num;
 }
 
-// function stopTimer() {
-//     clearInterval(interval);
-// }
+function stopTimer() {
+    clearInterval(interval);
+}
